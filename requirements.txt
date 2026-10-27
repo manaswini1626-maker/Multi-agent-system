@@ -1,0 +1,24 @@
+# ---- Core LangChain (LCEL, Runnables, create_agent) ----
+langchain>=1.0.0
+langchain-core>=1.0.0
+langchain-community>=0.4.0
+
+# ---- OpenAI LLM integration ----
+langchain-openai>=1.0.0
+openai>=1.50.0
+
+# ---- Agents (create_react_agent / create_agent run on LangGraph) ----
+langgraph>=1.0.0
+
+# ---- Tool 1: Tavily web search ----
+langchain-tavily>=0.2.0
+tavily-python>=0.5.0
+
+# ---- Tool 2: BeautifulSoup web scraping ----
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+requests>=2.32.0
+
+# ---- Utilities ----
+python-dotenv>=1.0.0
+pydantic>=2.7.0
